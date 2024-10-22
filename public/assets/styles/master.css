@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+}
+
+:root{
+    --primary-white-color: #ffffff;
+    --second-white-color: #F1ECE0;
+    --blue-light-color: #437FA6;
+    --blue-medium-color: #0D3B66;
+    --blue-dark-color: #010B23;
+    --brown-color: #BF7B50;
+}
+
+/* Color Theme Swatches in Hex */
+.color-palette-blues-neutral-hermes-1-hex { color: #010B23; }
+.color-palette-blues-neutral-hermes-2-hex { color: #0D3B66; }
+.color-palette-blues-neutral-hermes-3-hex { color: #437FA6; }
+.color-palette-blues-neutral-hermes-4-hex { color: #F1ECE0; }
+.color-palette-blues-neutral-hermes-5-hex { color: #BF7B50; }
+
+/* Color Theme Swatches in RGBA */
+.color-palette-blues-neutral-hermes-1-rgba { color: rgba(1, 11, 35, 1); }
+.color-palette-blues-neutral-hermes-2-rgba { color: rgba(13, 59, 102, 1); }
+.color-palette-blues-neutral-hermes-3-rgba { color: rgba(67, 127, 166, 1); }
+.color-palette-blues-neutral-hermes-4-rgba { color: rgba(241, 236, 224, 1); }
+.color-palette-blues-neutral-hermes-5-rgba { color: rgba(191, 123, 80, 1); }
+
+/* Color Theme Swatches in HSLA */
+.color-palette-blues-neutral-hermes-1-hsla { color: hsla(222, 94, 7, 1); }
+.color-palette-blues-neutral-hermes-2-hsla { color: hsla(208, 77, 22, 1); }
+.color-palette-blues-neutral-hermes-3-hsla { color: hsla(203, 42, 45, 1); }
+.color-palette-blues-neutral-hermes-4-hsla { color: hsla(42, 37, 91, 1); }
+.color-palette-blues-neutral-hermes-5-hsla { color: hsla(23, 46, 53, 1); }
+
+
+
+main {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: var(--blue-light-color);
+}
+.btn_custom_enter{
+    background-color: var(--blue-light-color) !important;
+    color: var(--second-white-color) !important;
+}
+.btn_custom_enter:hover{
+    background-color: var(--blue-dark-color) !important;
+}
+
+.btn_custom_register{
+    border: 2px solid var(--brown-color) !important;
+}
+
+.btn_custom_register:hover{
+    background-color: var(--brown-color) !important;
+    color: var(--primary-white-color) !important;
+}
+.card_home_custom{
+    cursor: pointer;
+}
+
+.card_home_custom:hover{
+    background-color: var(--brown-color);
+    color: var(--primary-white-color);
+}
+
